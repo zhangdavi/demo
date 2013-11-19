@@ -1,6 +1,10 @@
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
+
+source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.1'
+
+gem 'will_paginate', '~>3.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -39,5 +43,6 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 group :development do
 	gem  'annotate'
+	gem 'faker', '0.3.1'
 end
 

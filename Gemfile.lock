@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://ruby.taobao.org/
   specs:
     actionmailer (3.2.1)
       actionpack (= 3.2.1)
@@ -41,6 +41,7 @@ GEM
     coffee-script-source (1.6.3)
     erubis (2.7.0)
     execjs (2.0.2)
+    faker (0.3.1)
     gravatar_image_tag (0.1.0)
     hike (1.2.3)
     i18n (0.6.5)
@@ -100,6 +101,7 @@ GEM
     uglifier (2.3.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    will_paginate (3.0.5)
 
 PLATFORMS
   x86-mingw32
@@ -107,9 +109,11 @@ PLATFORMS
 DEPENDENCIES
   annotate
   coffee-rails (~> 3.2.1)
+  faker (= 0.3.1)
   gravatar_image_tag (= 0.1.0)
   jquery-rails
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
+  will_paginate (~> 3.0)
